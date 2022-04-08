@@ -28,6 +28,7 @@ resource "azurerm_resource_group" "grp" {
 name = var.resource_group_name
 location = "north europe"
 }
+##comment
 
 resource "azurerm_storage_account" "strterratest"{
 name = var.storage_name
