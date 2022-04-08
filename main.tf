@@ -14,13 +14,6 @@ tenant_id = "b4379ba6-6d53-47fe-b814-910057a92b2b"
 features{}
 }
 
- backend "azurerm" {
-    resource_group_name   = "RG12"
-    storage_account_name  = "strinfraterra"
-    container_name        = "tstate"
-    key   = "woGcRW115oKYd+fQB3wjTWIiD2/54vKa/0YME7ns+T0HcR/lZO89XEvGXare+/1FS7hGKF/htqa3+ASt0fAGxw=="
-}
-
 variable "resource_group_name"{
 type = string
 default = "appstore1987"
